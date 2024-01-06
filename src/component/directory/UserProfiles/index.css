@@ -1,0 +1,75 @@
+.user-profile-container{
+    width:900px;
+    border:solid 1px;
+    text-align: center;
+    background: linear-gradient(to right, #f7f7f7, #f2f5f7);
+    margin: 2rem 1rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(32, 32, 32, 0.6);
+    padding:30px 20px 20px 20px;
+    font-weight: 600;
+}
+.user-profile-header{
+    display: flex;
+    justify-content: space-between;
+}
+.user-profile-header-timer{
+    display: flex;
+}
+.user-profile-details{
+    border:solid 1px;
+    padding:30px 20px 20px 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.user-profile-post{
+    border:solid 1px;
+    padding:30px 20px 20px 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.user-profile-post-details{
+    border:solid 1px;
+    font-weight: 400;
+    border-radius: 10px;
+    width:30%;
+    margin-bottom: 10px;
+    padding:5px;
+
+}
+.post-title{
+    font-weight: 600; 
+    margin-bottom: 15px; 
+
+}
+
+.custom-danger-button {
+    background-color: #dc3545; 
+    border: 1px solid #dc3545; 
+    color: #ffffff;
+    padding: 8px 16px; 
+    font-size: 14px; 
+    cursor: pointer;
+    border-radius: 4px; 
+  }
+  
+  .custom-danger-button:hover {
+    background-color: #c82333; 
+    border: 1px solid #bd2130; 
+    color: #ffffff;
+  }
+  
+
+@media screen and (max-width:800px) {
+    .user-profile-post-details{
+        width:100%;
+    }
+  }

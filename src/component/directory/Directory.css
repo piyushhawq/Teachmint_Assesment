@@ -1,0 +1,34 @@
+.directory-container {
+    width: 800px;
+    border: solid 1px;
+    background: linear-gradient(to right, #f7f7f7, #f2f5f7);
+    margin: 2rem 1rem;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(32, 32, 32, 0.6);
+  }
+  
+@media screen and (max-width:800px) {
+    .directory-container{
+        width:100%;
+    }
+  }
+.directory-users{
+    display: flex;
+    border:solid 1px;
+    border-radius: 10px;
+    height:50px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding :0px 25px 0px 10px; 
+    font-weight: 600;
+    background-color: rgb(168, 208, 221);
+    cursor: pointer;
+}
+.directory-users:hover{
+  background-color: rgb(201, 204, 204);
+
+}
